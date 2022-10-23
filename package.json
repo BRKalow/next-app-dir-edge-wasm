@@ -6,13 +6,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "canary",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^12.3.2-canary.33",
+    "react": "^0.0.0-experimental-0c11baa6a-20221022",
+    "react-dom": "^0.0.0-experimental-0c11baa6a-20221022"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
-    "@types/react": "^18.0.14",
-    "typescript": "^4.7.4"
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "typescript": "4.8.4"
+  },
+  "overrides": {
+    "react": "^0.0.0-experimental-0c11baa6a-20221022",
+    "react-dom": "^0.0.0-experimental-0c11baa6a-20221022"
   }
 }
